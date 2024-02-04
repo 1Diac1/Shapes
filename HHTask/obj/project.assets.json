@@ -1,0 +1,89 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "HHTask.Library/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/HHTask.Library.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HHTask.Library.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HHTask.Library/1.0.0": {
+      "type": "project",
+      "path": "../HHTask.Library/HHTask.Library.csproj",
+      "msbuildProject": "../HHTask.Library/HHTask.Library.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "HHTask.Library >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Computer\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\Programming\\FunnyCSharpProjects\\HHTask\\HHTask\\HHTask.csproj",
+      "projectName": "HHTask",
+      "projectPath": "E:\\Programming\\FunnyCSharpProjects\\HHTask\\HHTask\\HHTask.csproj",
+      "packagesPath": "C:\\Users\\Computer\\.nuget\\packages\\",
+      "outputPath": "E:\\Programming\\FunnyCSharpProjects\\HHTask\\HHTask\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Computer\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "E:\\Programming\\FunnyCSharpProjects\\HHTask\\HHTask.Library\\HHTask.Library.csproj": {
+              "projectPath": "E:\\Programming\\FunnyCSharpProjects\\HHTask\\HHTask.Library\\HHTask.Library.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

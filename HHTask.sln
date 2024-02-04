@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HHTask", "HHTask\HHTask.csproj", "{2E1638EE-556D-42E0-A2F0-7E9639072E31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HHTask.Library", "HHTask.Library\HHTask.Library.csproj", "{42B13D5C-96AD-4931-A512-F25469E33BC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HHTask.Library.UnitTests", "HHTask.Library.UnitTests\HHTask.Library.UnitTests.csproj", "{B5DB3F00-5DB2-4FD2-B5CC-A71D6D19A226}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E1638EE-556D-42E0-A2F0-7E9639072E31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E1638EE-556D-42E0-A2F0-7E9639072E31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E1638EE-556D-42E0-A2F0-7E9639072E31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E1638EE-556D-42E0-A2F0-7E9639072E31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42B13D5C-96AD-4931-A512-F25469E33BC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42B13D5C-96AD-4931-A512-F25469E33BC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42B13D5C-96AD-4931-A512-F25469E33BC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42B13D5C-96AD-4931-A512-F25469E33BC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5DB3F00-5DB2-4FD2-B5CC-A71D6D19A226}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5DB3F00-5DB2-4FD2-B5CC-A71D6D19A226}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5DB3F00-5DB2-4FD2-B5CC-A71D6D19A226}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5DB3F00-5DB2-4FD2-B5CC-A71D6D19A226}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
